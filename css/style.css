@@ -1,0 +1,48 @@
+/* import font */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf"); }
+@font-face {
+  font-family: "Roboto-ligth";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf"); }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
+/* MENU ASIDE */
+aside {
+  background-color: #131313;
+  height: 100vh; }
+  aside .maphoto {
+    margin: 20px 10px !important;
+    text-align: center; }
+    aside .maphoto img {
+      border-radius: 50%;
+      width: 80%; }
+  aside .navbar-nav {
+    line-height: 3em;
+    text-transform: uppercase; }
+    aside .navbar-nav .nav-link {
+      font-family: "roboto-ligth";
+      font-size: 0.9em;
+      color: #fff;
+      transform: all;
+      transition-duration: 0.8s; }
+
+.nav-item:hover .nav-link {
+  color: #007bff; }
+
+/* PAGE CENTRALE ET SECTIONS */
+.content-wrapper {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh; }
+
+/* section home */
+.section-home {
+  background: url("../media/mbr-1920x1281.jpg") no-repeat;
+  background-size: cover; }
+  .section-home .jumbotron {
+    position: absolute;
+    margin-top: 10vh !important;
+    margin-left: 10vw !important; }
