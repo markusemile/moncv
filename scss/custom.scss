@@ -16,34 +16,3 @@ h1 {
 .navbar {
     justify-content: center !important;
 }
-
-.section {
-    height: 100vh;
-    width: 100% !important;
-}
-
-/* FA - font awesome */
-.font-fa {
-    display: flex;
-    justify-content: center;
-    width: 3vw;
-    height: 3vw;
-    background-color: #29487d;
-    border-radius: 50%;
-}
-
-.fab {
-    color: #fff;
-    padding: 10px !important;
-    text-align: center;
-}
-
-/* jumbotron */
-
-.jumbotron {
-    background: none;
-
-    h1 {
-        font-weight: bold;
-    }
-}

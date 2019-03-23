@@ -8,41 +8,65 @@
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
-/* MENU ASIDE */
-aside {
-  background-color: #131313;
-  height: 100vh; }
-  aside .maphoto {
-    margin: 20px 10px !important;
-    text-align: center; }
-    aside .maphoto img {
-      border-radius: 50%;
-      width: 80%; }
-  aside .navbar-nav {
-    line-height: 3em;
-    text-transform: uppercase; }
-    aside .navbar-nav .nav-link {
-      font-family: "roboto-ligth";
-      font-size: 0.9em;
-      color: #fff;
-      transform: all;
-      transition-duration: 0.8s; }
+body {
+  overflow: hidden; }
 
-.nav-item:hover .nav-link {
-  color: #007bff; }
-
-/* PAGE CENTRALE ET SECTIONS */
-.content-wrapper {
+/* SCROLLPANE */
+.scroll-pane {
+  margin-top: 50px;
   width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 100vh; }
+  height: 100vh;
+  overflow: auto; }
 
-/* section home */
-.section-home {
-  background: url("../media/mbr-1920x1281.jpg") no-repeat;
-  background-size: cover; }
-  .section-home .jumbotron {
-    position: absolute;
-    margin-top: 10vh !important;
-    margin-left: 10vw !important; }
+.jspScrollable {
+  overflow: hidden;
+  padding: 0px;
+  width: 20vw; }
+
+/* profondeur dui scroll*/
+.jspContainer {
+  overflow: hidden;
+  position: relative;
+  width: 20vw;
+  height: 100vw; }
+
+.jspPane {
+  position: absolute;
+  padding: 0px;
+  width: 18vw;
+  top: 0px; }
+
+.jspVerticalBar {
+  background: #444c53;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px; }
+
+.jspDrag {
+  background-color: #5f788d; }
+
+.jspCap {
+  display: none; }
+
+.jspTrack {
+  background: #444c53;
+  position: relative; }
+
+/* ASIDE MENU */
+aside {
+  margin: 0 !important;
+  width: 20vw;
+  height: 100vh;
+  overflow: hidden; }
+
+#menu {
+  margin: 0 !important;
+  color: #fff; }
+
+.maphoto {
+  margin-top: 3vh !important; }
+  .maphoto img {
+    width: 70%;
+    border-radius: 50%; }
