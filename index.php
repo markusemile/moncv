@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="css/all.min.css">
@@ -16,6 +15,7 @@
   <link rel="stylesheet" href="css/jquery.jscrollpane.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/animate.css">
 
 
 </head>
@@ -38,20 +38,21 @@
                   <div id="navbar">
                     <ul class="nav navbar-nav text-center">
                       <li class="nav-item">
-                        <a href="" class="nav-link">Accueil</a>
+                        <a href="#" class="nav-link bt-home">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a href="#about-me" class="nav-link">About me...</a>
+                        <a href="#" class="nav-link bt-about">About me...</a>
                       </li>
                       <li class="nav-item">
-                        <a href="" class="nav-link">Experience</a>
+                        <a href="#" class="nav-link bt-expert">Experience</a>
                       </li>
                       <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a></li>
-                      <li class="nav-item"><a href="" class="nav-link">Education</a>
+                        <a href="#" class="nav-link bt-skill">Skills</a></li>
+                      <li class="nav-item">
+                        <a href="#" class="nav-link bt-educ">Education</a>
                       </li>
                       <li class="nav-item">
-                        <a href="" class="nav-link">Portfolio</a>
+                        <a href="#" class="nav-link bt-portfolio">Portfolio</a>
                       </li>
                     </ul>
                   </div>
@@ -72,6 +73,34 @@
           </div>
         </nav>
       </aside>
+      <div id="mainContainer" class="container">
+        <div id="containerToSlide">s
+           <!-- section homepage -->
+          <div id="section-home" class="section">
+            HomePage
+          </div>
+          <!-- section about-me -->
+          <div id="section-about" class="section">
+            About-me
+          </div>
+          <!-- section experience -->
+          <div id="section-experience" class="section">
+            Experience
+          </div>
+          <!-- section skills -->
+          <div id="section-skills" class="section">
+            Skills
+          </div>
+          <!-- section education -->
+          <div id="section-education" class="section">
+            Education
+          </div>
+          <!-- section Portfolio -->
+          <div id="section-portfolio" class="section">
+            Portfolio
+          </div>
+</div>
+      </div>
     </div>
     <!-- fin du aside avec le menu -->
     <!-- debut du cadre principale à slider -->
@@ -85,7 +114,6 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/bootstrap.js"></script>
-    <script src="js/popper"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script scr="js/jquery.mousewheel.js"></script>
     <script src="js/jquery.jScrollPane.js"></script>

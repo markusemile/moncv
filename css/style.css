@@ -28,7 +28,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 20vw;
-  height: 100vw; }
+  height: 200vw; }
 
 .jspPane {
   position: absolute;
@@ -37,7 +37,7 @@ body {
   top: 0px; }
 
 .jspVerticalBar {
-  background: #444c53;
+  background: red;
   height: 100%;
   position: absolute;
   right: 0;
@@ -45,7 +45,10 @@ body {
   width: 6px; }
 
 .jspDrag {
-  background-color: #5f788d; }
+  top: 30px !important;
+  background-color: blue;
+  width: 20px;
+  z-index: 9999; }
 
 .jspCap {
   display: none; }
@@ -59,7 +62,8 @@ aside {
   margin: 0 !important;
   width: 20vw;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 99999999 !important; }
 
 #menu {
   margin: 0 !important;
@@ -70,3 +74,44 @@ aside {
   .maphoto img {
     width: 70%;
     border-radius: 50%; }
+
+#mainContainer {
+  position: absolute;
+  top: 0px;
+  left: 20vw;
+  width: 160vw;
+  z-index: -1 !important; }
+
+#containerToSlide {
+  position: absolute;
+  transition: all;
+  transition-duration: 2s ease-out; }
+
+.section {
+  position: absolute;
+  height: 100vh;
+  width: 80vw;
+  top: 0px; }
+
+#section-home {
+  background-color: #5e7f9c; }
+
+#section-about {
+  left: 80vw;
+  background-color: #75598f; }
+
+#section-experience {
+  left: 160vw;
+  background-color: #5e7f9c; }
+
+#section-skills {
+  left: 240vw;
+  background-color: #75598f; }
+
+#section-education {
+  left: 320vw;
+  background-color: #5e7f9c; }
+
+#section-portfolio {
+  left: 400vw;
+  background-color: #75598f; }
