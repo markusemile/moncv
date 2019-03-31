@@ -23,67 +23,82 @@
 <body>
   <div class="container-fluid d-flex">
     <!-- aside avec le menu  -->
-    <div class="container">
+    <div class="container onTop">
       <aside id="menu" class="bg-dark">
         <nav class="navbar navbar-default navbar-static-top">
-          <div id="pane1" class="scroll-pane jspScrollable" tabindex="0">
-            <div class="jspContainer">
-              <div class="jspPane">
-                <!-- VOTRE TEXTE ICI  -->
-                <nav class="navbar navbar-default navbar-static-top">
-                  <div class="maphoto d-flex justify-content-center">
-                    <img src="media/moi.jpg" alt="" class="img-fluid">
-                  </div>
-                  <!-- menu -->
-                  <div id="navbar">
-                    <ul class="nav navbar-nav text-center">
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-home">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-about">About me...</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-expert">Experience</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-skill">Skills</a></li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-educ">Education</a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link bt-portfolio">Portfolio</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-                
-              </div>
-              <div class="jspVerticalBar">
-                <div class="jspCap jspCapTop"></div>
-                <div class="jspTrack">
-                  <div class="jspDrag">
-                    <div class="jspDragTop"></div>
-                    <div class="jspDragBottom"></div>
-                  </div>
-                </div>
-                <div class="jspCap jspCapBottom"></div>
-              </div>
-            </div>
+          <!-- VOTRE TEXTE ICI  -->
+          <div class="maphoto d-flex justify-content-center">
+            <img src="media/moi.jpg" alt="" class="img-fluid">
+          </div>
+          <!-- menu -->
+          <div id="menue">
+            <ul class="nav navbar-nav text-center">
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-about">About me...</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-expert">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-skill">Skills</a></li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-educ">Education</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link bt-portfolio">Portfolio</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </aside>
       <div id="mainContainer" class="container">
-        <div id="containerToSlide">s
-           <!-- section homepage -->
+        <div id="containerToSlide">
+          <!-- --------------------------------- -->
+          <!-- section homepage ---------------- -->
+          <!-- --------------------------------- -->
           <div id="section-home" class="section">
-            HomePage
+            <h1>Hi !<br> I'm Markus Emile</h1>
+            <p class="leaf">I am passionate about <br>the professions of the web </p>
           </div>
-          <!-- section about-me -->
+          <!-- ---------------------------------- -->
+          <!-- section about-me ----------------- -->
+          <!-- ---------------------------------- -->
           <div id="section-about" class="section">
-            About-me
+          <div id="pane1" class="scroll-pane jspScrollable" style="overflow: hidden; padding: 0px; width: 700px;"
+                    tabindex="0">
+                    <div class="jspContainer" style="width: 700px; height: 300px;">
+                        <div class="jspPane" style="padding: 0px; width: 680px; top: 0px;">
+                            <!-- VOTRE TEXTE ICI  -->
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ad quod ratione
+                                veniam minus ipsam, error sequi eligendi optio suscipit saepe ullam? Neque, delectus
+                                voluptas corporis consequatur fugiat culpa alias voluptatibus porro. Itaque dolore
+                                voluptatem rerum, voluptatum deserunt dolorum sed hic optio cupiditate perferendis
+                                nostrum odio aspernatur consequuntur fuga aut?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur eaque
+                                nesciunt alias soluta nisi iste non odit esse, voluptatem mollitia labore. Aut modi iure
+                                deserunt accusantium deleniti, saepe error quae labore placeat, inventore odio, enim
+                                illum ipsa vel voluptatibus accusamus facilis molestias omnis fugiat! Ducimus illum
+                                accusamus modi culpa.</p>
+                        </div>
+                        <div class="jspVerticalBar">
+                            <div class="jspCap jspCapTop"></div>
+                            <div class="jspTrack" style="height: 200px;">
+                                <div class="jspDrag" style="height: 90px;">
+                                    <div class="jspDragTop"></div>
+                                    <div class="jspDragBottom"></div>
+                                </div>
+                            </div>
+                            <div class="jspCap jspCapBottom"></div>
+                        </div>
+                    </div>
+                </div>
           </div>
-          <!-- section experience -->
+          <!-- ---------------------------------- -->
+          <!-- section experience --------------- -->
+          <!-- ---------------------------------- -->
           <div id="section-experience" class="section">
             Experience
           </div>
@@ -99,7 +114,7 @@
           <div id="section-portfolio" class="section">
             Portfolio
           </div>
-</div>
+        </div>
       </div>
     </div>
     <!-- fin du aside avec le menu -->
@@ -114,12 +129,15 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/bootstrap.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.3.1.js"></script>
-    <script scr="js/jquery.mousewheel.js"></script>
+    <script src="js/jquery.easing.js"></script>
     <script src="js/jquery.jScrollPane.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/actions.js"></script>
+
 </body>
 
 </html>

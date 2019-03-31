@@ -10,4 +10,8 @@ h1 {
   font-family: "roboto" !important; }
 
 .navbar {
-  justify-content: center !important; }
+  justify-content: center !important;
+  display: block; }
+
+.container {
+  max-width: 1900px; }

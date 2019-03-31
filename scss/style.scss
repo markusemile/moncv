@@ -22,47 +22,26 @@ body {
 .scroll-pane {
     margin-top: 50px;
     width: 100%;
-    height: 100vh;
+    height: 180px;
     overflow: auto;
 }
 
-.jspScrollable {
-    overflow: hidden;
-    padding: 0px;
-    width: 20vw;
-}
-
-/* profondeur dui scroll*/
 .jspContainer {
     overflow: hidden;
     position: relative;
-    width: 20vw;
-    height: 200vw;
 }
 
 .jspPane {
     position: absolute;
-    padding: 0px;
-    width: 18vw;
-    top: 0px;
 }
 
 .jspVerticalBar {
-    //background: #444c53;
     background: red;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
-    width: 6px;
-}
-
-.jspDrag {
-    //background-color: #5f788d;
-    top: 30px !important;
-    background-color: blue;
-    width: 20px;
-    z-index: 9999;
+    width: 16px;
 }
 
 .jspCap {
@@ -70,7 +49,7 @@ body {
 }
 
 .jspTrack {
-    background: #444c53;
+    background: #dde;
     position: relative;
 }
 
@@ -81,6 +60,28 @@ aside {
     height: 100vh;
     overflow: hidden;
     z-index: 99999999 !important;
+
+    ul {
+        margin-top: 20px !important;
+    }
+
+    ul li {
+        padding: 15px 0 !important;
+        border-bottom: 1px solid rgba(73, 82, 92, 0.5);
+    }
+
+    ul li:hover {
+        background-color: rgb(50, 56, 61);
+    }
+
+    a {
+        color: #fff;
+        transition: all 1s
+    }
+
+    ul li:hover a {
+        color: rgb(117, 156, 117);
+    }
 }
 
 #menu {
@@ -90,28 +91,33 @@ aside {
 
 .maphoto {
     margin-top: 3vh !important;
-
-    img {
-        width: 70%;
-        border-radius: 50%;
-    }
 }
 
-// main page
+.maphoto img {
+    width: 70%;
+    border-radius: 50%;
+}
+
+/* FIN DU ASIDE MENU */
 #mainContainer {
     position: absolute;
     top: 0px;
     left: 20vw;
     width: 160vw;
-    z-index: -1 !important;
+    height: 100vh;
+    z-index: 999 !important;
+    overflow-x: hidden;
 }
 
 #containerToSlide {
     position: absolute;
     transition: all;
-    transition-duration: 2s ease-out;
+    transition-duration: 2s ease-out-in;
 }
 
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  |||||                    LES SECTIONS                       ||
+  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 .section {
     position: absolute;
     height: 100vh;
@@ -119,36 +125,52 @@ aside {
     top: 0px;
 }
 
-// section-home
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   HOME
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #section-home {
-    background-color: #5e7f9c;
+    background: url("../media/mbr-1920x1281.jpg");
+    background-size: cover;
+
+    h1 {
+        position: relative;
+        font-weight: bold;
+        font-size: 3.7em;
+        left: 25vw;
+        top: 5vh;
+    }
+
+    .leaf {
+        position: relative;
+        font-size: 2em;
+        left: 25vw;
+        top: 5vh;
+    }
 }
 
-// section aboutme
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   ABOUT ME
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #section-about {
     left: 80vw;
     background-color: #75598f;
 }
 
-// section-experience
 #section-experience {
     left: 160vw;
     background-color: #5e7f9c;
 }
 
-// section skills
 #section-skills {
     left: 240vw;
     background-color: #75598f;
 }
 
-// section-education
 #section-education {
     left: 320vw;
     background-color: #5e7f9c;
 }
 
-// section portfolio
 #section-portfolio {
     left: 400vw;
     background-color: #75598f;
