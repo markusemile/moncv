@@ -1,0 +1,139 @@
+/* import font */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf"); }
+@font-face {
+  font-family: "Roboto-ligth";
+  src: url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf"); }
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
+body {
+  overflow: hidden; }
+
+/* SCROLLPANE */
+.scroll-pane {
+  margin-top: 50px;
+  width: 100%;
+  height: 180px;
+  overflow: auto; }
+
+.jspContainer {
+  overflow: hidden;
+  position: relative; }
+
+.jspPane {
+  position: absolute; }
+
+.jspVerticalBar {
+  background: red;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 16px; }
+
+.jspCap {
+  display: none; }
+
+.jspTrack {
+  background: #dde;
+  position: relative; }
+
+/* ASIDE MENU */
+aside {
+  margin: 0 !important;
+  width: 20vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 99999999 !important; }
+  aside ul {
+    margin-top: 20px !important; }
+  aside ul li {
+    padding: 15px 0 !important;
+    border-bottom: 1px solid rgba(73, 82, 92, 0.5); }
+  aside ul li:hover {
+    background-color: #32383d; }
+  aside a {
+    color: #fff;
+    transition: all 1s; }
+  aside ul li:hover a {
+    color: #759c75; }
+
+#menu {
+  margin: 0 !important;
+  color: #fff; }
+
+.maphoto {
+  margin-top: 3vh !important; }
+
+.maphoto img {
+  width: 70%;
+  border-radius: 50%; }
+
+/* FIN DU ASIDE MENU */
+#mainContainer {
+  position: absolute;
+  top: 0px;
+  left: 20vw;
+  width: 160vw;
+  height: 100vh;
+  z-index: 999 !important;
+  overflow-x: hidden; }
+
+#containerToSlide {
+  position: absolute;
+  transition: all;
+  transition-duration: 2s ease-out-in; }
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+  |||||                    LES SECTIONS                       ||
+  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+.section {
+  position: absolute;
+  height: 100vh;
+  width: 80vw;
+  top: 0px; }
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   HOME
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+#section-home {
+  background: url("../media/mbr-1920x1281.jpg");
+  background-size: cover; }
+  #section-home h1 {
+    position: relative;
+    font-weight: bold;
+    font-size: 3.7em;
+    left: 25vw;
+    top: 5vh; }
+  #section-home .leaf {
+    position: relative;
+    font-size: 2em;
+    left: 25vw;
+    top: 5vh; }
+
+/*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+   ABOUT ME
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+#section-about {
+  left: 80vw;
+  background-color: #75598f; }
+
+#section-experience {
+  left: 160vw;
+  background-color: #5e7f9c; }
+
+#section-skills {
+  left: 240vw;
+  background-color: #75598f; }
+
+#section-education {
+  left: 320vw;
+  background-color: #5e7f9c; }
+
+#section-portfolio {
+  left: 400vw;
+  background-color: #75598f; }
+
+/*# sourceMappingURL=style.css.map */

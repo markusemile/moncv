@@ -1,4 +1,18 @@
 $(function () {
+    new WOW().init();
+    /* typing style */
+    
+    $(".slogan").typed({
+        strings : ["Webdesign","Programmation"," all IT solution"],
+        typespeed : 1,
+        loop : true,
+        backDelay : 6000,
+        showCursor: true,
+		// character for cursor
+        cursorChar: "|",
+        
+  
+    });
 
     $('.scroll-pane').jScrollPane();
 

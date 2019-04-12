@@ -49,7 +49,7 @@
     right: -35%;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: rgba(255, 255, 255, 0.5);
+    background:pink;
     position: absolute;
     content: '';
     -webkit-transition: 0.4s ease-in-out;
@@ -70,7 +70,8 @@
 
 .portfolio-overlay {
     bottom: 0;
-    color: #ffffff;
+    background:red;
+    color: green;
     left: 0;
     padding: 30px;
     position: absolute;
@@ -87,6 +88,7 @@
 
 .portfolio_items li:hover .portfolio-overlay {
     opacity: 1;
+    background: green;
 }
 
 .overlay-inner {
@@ -117,7 +119,7 @@
 
 .portfolio-overlay .fa {
     background: none;
-    border: 1px solid #fff;
+    border: 1px solid blue;
     color: red;
     font-size: 20px;
     height: 40px;
@@ -131,6 +133,6 @@
 }
 
 .portfolio-overlay .fa:hover {
-    background: #fff none repeat scroll 0 0;
+    background: yellow none repeat scroll 0 0;
     color: #1cb9c8;
 }

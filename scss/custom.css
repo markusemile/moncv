@@ -1,0 +1,19 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important; }
+
+body {
+  font-family: "montserrat"; }
+
+.menu,
+h1 {
+  font-family: "roboto" !important; }
+
+.navbar {
+  justify-content: center !important;
+  display: block; }
+
+.container {
+  max-width: 1900px; }
+
+/*# sourceMappingURL=custom.css.map */

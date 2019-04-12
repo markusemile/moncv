@@ -107,11 +107,28 @@ aside {
     font-size: 3.7em;
     left: 25vw;
     top: 5vh; }
-  #section-home .leaf {
+  #section-home .typedText span {
     position: relative;
     font-size: 2em;
     left: 25vw;
     top: 5vh; }
+
+.typed-cursor {
+  opacity: 0;
+  animation: blink 0.7s infinite; }
+
+@keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+p.slogan {
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -ms-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out; }
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
    ABOUT ME

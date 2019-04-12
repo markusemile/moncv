@@ -16,7 +16,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/animate.css">
-
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
 
 </head>
 
@@ -61,40 +62,43 @@
           <!-- --------------------------------- -->
           <div id="section-home" class="section">
             <h1>Hi !<br> I'm Markus Emile</h1>
-            <p class="leaf">I am passionate about <br>the professions of the web </p>
+            <div class="container typedText">
+              <span>I'm passioned into </span><span class="slogan"></span>
+            </div>
+             
           </div>
           <!-- ---------------------------------- -->
           <!-- section about-me ----------------- -->
           <!-- ---------------------------------- -->
           <div id="section-about" class="section">
-          <div id="pane1" class="scroll-pane jspScrollable" style="overflow: hidden; padding: 0px; width: 700px;"
-                    tabindex="0">
-                    <div class="jspContainer" style="width: 700px; height: 300px;">
-                        <div class="jspPane" style="padding: 0px; width: 680px; top: 0px;">
-                            <!-- VOTRE TEXTE ICI  -->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ad quod ratione
-                                veniam minus ipsam, error sequi eligendi optio suscipit saepe ullam? Neque, delectus
-                                voluptas corporis consequatur fugiat culpa alias voluptatibus porro. Itaque dolore
-                                voluptatem rerum, voluptatum deserunt dolorum sed hic optio cupiditate perferendis
-                                nostrum odio aspernatur consequuntur fuga aut?</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur eaque
-                                nesciunt alias soluta nisi iste non odit esse, voluptatem mollitia labore. Aut modi iure
-                                deserunt accusantium deleniti, saepe error quae labore placeat, inventore odio, enim
-                                illum ipsa vel voluptatibus accusamus facilis molestias omnis fugiat! Ducimus illum
-                                accusamus modi culpa.</p>
-                        </div>
-                        <div class="jspVerticalBar">
-                            <div class="jspCap jspCapTop"></div>
-                            <div class="jspTrack" style="height: 200px;">
-                                <div class="jspDrag" style="height: 90px;">
-                                    <div class="jspDragTop"></div>
-                                    <div class="jspDragBottom"></div>
-                                </div>
-                            </div>
-                            <div class="jspCap jspCapBottom"></div>
-                        </div>
-                    </div>
+            <div id="pane1" class="scroll-pane jspScrollable" style="overflow: hidden; padding: 0px; width: 700px;"
+              tabindex="0">
+              <div class="jspContainer" style="width: 700px; height: 300px;">
+                <div class="jspPane" style="padding: 0px; width: 680px; top: 0px;">
+                  <!-- VOTRE TEXTE ICI  -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ad quod ratione
+                    veniam minus ipsam, error sequi eligendi optio suscipit saepe ullam? Neque, delectus
+                    voluptas corporis consequatur fugiat culpa alias voluptatibus porro. Itaque dolore
+                    voluptatem rerum, voluptatum deserunt dolorum sed hic optio cupiditate perferendis
+                    nostrum odio aspernatur consequuntur fuga aut?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate consequuntur eaque
+                    nesciunt alias soluta nisi iste non odit esse, voluptatem mollitia labore. Aut modi iure
+                    deserunt accusantium deleniti, saepe error quae labore placeat, inventore odio, enim
+                    illum ipsa vel voluptatibus accusamus facilis molestias omnis fugiat! Ducimus illum
+                    accusamus modi culpa.</p>
                 </div>
+                <div class="jspVerticalBar">
+                  <div class="jspCap jspCapTop"></div>
+                  <div class="jspTrack" style="height: 200px;">
+                    <div class="jspDrag" style="height: 90px;">
+                      <div class="jspDragTop"></div>
+                      <div class="jspDragBottom"></div>
+                    </div>
+                  </div>
+                  <div class="jspCap jspCapBottom"></div>
+                </div>
+              </div>
+            </div>
           </div>
           <!-- ---------------------------------- -->
           <!-- section experience --------------- -->
@@ -130,7 +134,6 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/bootstrap.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/jquery-3.3.1.js"></script>
     <script src="js/jquery.easing.js"></script>
     <script src="js/jquery.jScrollPane.js"></script>
     <script src="js/jquery.mousewheel.js"></script>
