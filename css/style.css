@@ -8,6 +8,18 @@
 @font-face {
   font-family: "Montserrat";
   src: url("../fonts/Montserrat/Montserrat-Regular.ttf"); }
+.titre {
+  float: left;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 3em;
+  border-bottom: 2px solid orange; }
+
+.paragraf {
+  clear: both;
+  position: relative;
+  float: left; }
+
 body {
   overflow: hidden; }
 
@@ -135,7 +147,11 @@ p.slogan {
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 #section-about {
   left: 80vw;
-  background-color: #75598f; }
+  background-color: #eeecf0; }
+
+#section-about .container {
+  position: absolute;
+  left: 20px; }
 
 #section-experience {
   left: 160vw;
