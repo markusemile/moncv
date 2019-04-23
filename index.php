@@ -71,16 +71,48 @@
             <!-- section about-me ----------------- -->
             <!-- ---------------------------------- -->
             <div id="section-about" class="section">
-              <div class="container  ml-2">
-                <h2 class="titre">About-Me</h2>
-                <div class="paragraf">
-                  <p>Name :</p><br>
-                  <p>FirstName :</p><br>
-                  <p>Email :</p><br>
-                  <p>Phone :</p><br>
-                  <p>Date of birthday :</p><br>
-                  <p>address :</p><br>
-                  <p>Nationality :</p>
+              <div id="pane1" class="scroll-pane jspScrollable"
+                style="overflow: hidden; padding: 0px; width: 95%;height:90vh;" tabindex="0">
+                <div class="jspContainer" style="width: 90%; height: 110vh;">
+                  <div class="jspPane" style="padding: 0px; width: 680px; top: 0px;">
+                    <div class="container">
+                      <h2 class="titre">About-Me</h2>
+                      <div class="paragraf">
+                        <p><strong>Name :</strong> Markus</p><br>
+                        <p><strong>FirstName :</strong> Emile</p><br>
+                        <p><strong>Email :</strong><a href="mailto:emile.markus@gmail.com"> emile.markus@gmail.com</a>
+                        </p><br>
+                        <p><Strong>Phone :</Strong> +32 (0)483 121 096</p><br>
+                        <p><strong>Date of birthday :</strong> 29.12.1972</p><br>
+                        <p><strong>Address :</strong> 6238 Luttre</p>
+                        <br>
+                        <p><strong>Nationality :</strong> Belgian</p>
+                      </div>
+                      <div class="paragraf pt-5 w-75">
+                        <h4>Professional Profile</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ratione voluptatem quis eius
+                          inventore
+                          optio, distinctio, cumque perspiciatis placeat nemo nihil neque iusto veritatis, pariatur
+                          doloremque? Commodi sequi nemo similique libero veritatis, quaerat officia? Assumenda dolores
+                          ad
+                          ipsa voluptatum ab ratione id. Officia exercitationem eveniet expedita, veniam qui cumque
+                          commodi
+                          totam, quia alias aperiam fugit saepe tempore eligendi blanditiis repellat dignissimos. Earum
+                          rerum
+                          alias assumenda veritatis fugiat quas inventore nam porro, nobis consectetur? Impedit, nobis
+                          repudiandae, hic, doloribus eaque necessitatibus natus porro voluptate nulla harum culpa
+                          reprehenderit ut. In facilis consequuntur quo est adipisci natus accusamus iste reiciendis
+                          ipsa
+                          commodi.</p>
+                      </div>
+                      <div class="paragraf pt-5 w-50">
+                        <button class="btn btn-warning">
+                          <h4 class="text-uppercase">Download My resume</h4>
+                        </button>
+                      </div>
+                    </div>
+
+                  </div>
                 </div>
               </div>
               <!--
@@ -119,25 +151,33 @@
             <!-- section experience --------------- -->
             <!-- ---------------------------------- -->
             <div id="section-experience" class="section">
-              Experience
-            </div>
-            <!-- section skills -->
-            <div id="section-skills" class="section">
-              Skills
-            </div>
-            <!-- section education -->
-            <div id="section-education" class="section">
-              Education
-            </div>
-            <!-- section Portfolio -->
-            <div id="section-portfolio" class="section">
-              Portfolio
+              <div id="pane1" class="scroll-pane jspScrollable"
+                style="overflow: hidden; padding: 0px; width: 95%;height:90vh;" tabindex="0">
+                <div class="jspContainer" style="width: 90%; height: 110vh;">
+                  <div class="jspPane" style="padding: 0px; width: 680px; top: 0px;">
+                    <div class="container">
+                      <!-- texte ici -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- section skills -->
+              <div id="section-skills" class="section">
+                Skills
+              </div>
+              <!-- section education -->
+              <div id="section-education" class="section">
+                Education
+              </div>
+              <!-- section Portfolio -->
+              <div id="section-portfolio" class="section">
+                Portfolio
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- fin du aside avec le menu -->
-      <!-- debut du cadre principale à slider -->
+        <!-- fin du aside avec le menu -->
+        <!-- debut du cadre principale à slider -->
 
 
 
@@ -145,17 +185,17 @@
 
 
 
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="js/bootstrap.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/jquery.easing.js"></script>
-      <script src="js/jquery.jScrollPane.js"></script>
-      <script src="js/jquery.mousewheel.js"></script>
-      <script src="js/jquery.fancybox.min.js"></script>
-      <script src="js/jquery.circlechart.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script src="js/actions.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/bootstrap.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/jquery.easing.js"></script>
+        <script src="js/jquery.jScrollPane.js"></script>
+        <script src="js/jquery.mousewheel.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.circlechart.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/actions.js"></script>
 
   </body>
 

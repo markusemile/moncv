@@ -12,16 +12,23 @@
   float: left;
   font-family: Roboto;
   font-weight: bold;
-  font-size: 3em;
-  border-bottom: 2px solid orange; }
+  font-size: 2.5em;
+  border-bottom: 3px solid orange;
+  margin-bottom: 30px !important;
+  text-transform: uppercase; }
 
 .paragraf {
   clear: both;
   position: relative;
   float: left; }
 
+.border-success {
+  padding: 15px !important;
+  border: 2px solid green; }
+
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  font-family: Roboto !important; }
 
 /* SCROLLPANE */
 .scroll-pane {
@@ -38,12 +45,13 @@ body {
   position: absolute; }
 
 .jspVerticalBar {
-  background: red;
+  padding-top: 50px !important;
+  background-color: transparent;
   height: 100%;
   position: absolute;
   right: 0;
   top: 0;
-  width: 16px; }
+  width: 6px; }
 
 .jspCap {
   display: none; }
@@ -74,13 +82,15 @@ aside {
 
 #menu {
   margin: 0 !important;
-  color: #fff; }
+  color: #fff;
+  font-size: 1.1em; }
 
 .maphoto {
   margin-top: 3vh !important; }
 
 .maphoto img {
-  width: 70%;
+  width: auto;
+  height: 20vh;
   border-radius: 50%; }
 
 /* FIN DU ASIDE MENU */
@@ -105,7 +115,8 @@ aside {
   position: absolute;
   height: 100vh;
   width: 80vw;
-  top: 0px; }
+  top: 0px;
+  overflow: hidden; }
 
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
    HOME
@@ -151,11 +162,12 @@ p.slogan {
 
 #section-about .container {
   position: absolute;
-  left: 20px; }
+  left: 50px !important;
+  top: 50px !important; }
 
 #section-experience {
   left: 160vw;
-  background-color: #5e7f9c; }
+  background-color: #f5f9fc; }
 
 #section-skills {
   left: 240vw;

@@ -15,23 +15,29 @@
 }
 
 .titre {
-    float:left;
-
-    font-family : Roboto;
+    float: left;
+    font-family: Roboto;
     font-weight: bold;
-    font-size:3em;
-    border-bottom : 2px solid orange;
+    font-size: 2.5em;
+    border-bottom: 3px solid orange;
+    margin-bottom: 30px !important;
+    text-transform: uppercase;
 }
 
 .paragraf {
-    clear:both;
-    position:relative;
-    float:left;
+    clear: both;
+    position: relative;
+    float: left;
 }
 
+.border-success {
+    padding: 15px !important;
+    border: 2px solid green;
+}
 
 body {
     overflow: hidden;
+    font-family: Roboto !important;
 }
 
 /* SCROLLPANE */
@@ -52,12 +58,13 @@ body {
 }
 
 .jspVerticalBar {
-    background: red;
+    padding-top: 50px !important;
+    background-color: transparent;
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
-    width: 16px;
+    width: 6px;
 }
 
 .jspCap {
@@ -103,6 +110,7 @@ aside {
 #menu {
     margin: 0 !important;
     color: #fff;
+    font-size: 1.1em;
 }
 
 .maphoto {
@@ -110,7 +118,8 @@ aside {
 }
 
 .maphoto img {
-    width: 70%;
+    width: auto;
+    height: 20vh;
     border-radius: 50%;
 }
 
@@ -139,6 +148,7 @@ aside {
     height: 100vh;
     width: 80vw;
     top: 0px;
+    overflow: hidden;
 
 }
 
@@ -165,27 +175,33 @@ aside {
     }
 
 }
+
 .typed-cursor {
-    opacity : 0;
-    animation : blink 0.7s infinite;
+    opacity: 0;
+    animation: blink 0.7s infinite;
 }
+
 @keyframes blink {
     0% {
-        opacity:1;
+        opacity: 1;
     }
+
     50% {
-        opacity:0;
+        opacity: 0;
     }
+
     100% {
-        opacity:1;
+        opacity: 1;
     }
 }
+
 p.slogan {
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     -ms-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
 }
+
 /*|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
    ABOUT ME
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -193,14 +209,17 @@ p.slogan {
     left: 80vw;
     background-color: #eeecf0;
 }
+
 #section-about .container {
-    position:absolute;
-    left: 20px;  
+    position: absolute;
+    left: 50px !important;
+    top: 50px !important;
 }
+
 //***********************************************************************
 #section-experience {
     left: 160vw;
-    background-color: #5e7f9c;
+    background-color: #f5f9fc;
 }
 
 #section-skills {
